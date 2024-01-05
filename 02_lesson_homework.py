@@ -1,5 +1,6 @@
 # LEVEL 1
 # local change and push
+# local change #2 after cloud change
 
 # 1. Перевірити, чи є введене число парним.
 user_number = int(input('Enter the number: '))
