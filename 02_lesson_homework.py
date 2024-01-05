@@ -17,10 +17,7 @@ else:
     print('# 2. Це якесь інше число')
 
 # 3. Ввести число, вивести усі його дільники
-numbers = []
-for i in range(1, user_number + 1):
-    if not user_number % i:
-        numbers.append(i)
+numbers = [i for i in range(1, user_number + 1) if not user_number % i]
 message = '-'
 for i in numbers:
     message += f' {i}'
